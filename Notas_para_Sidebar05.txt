@@ -1,0 +1,31 @@
+La clase "row" debe tener los margin-right: 0px y margin-left: 0px:
+	.row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: 0px;
+  margin-left: 0px; }
+
+
+Agregar a las referencias para que funcione el sidebar:
+
+CSS:
+	<link rel="stylesheet" href="css/style.css">
+
+
+JS:
+
+	<script src="js/main.js"></script>
+
+OJO, referenciar bien el jquery.min.js, puede estar en:
+	<script src="vendor/jquery/jquery.min.js"></script>
+
+Eliminar la clase "scrollspy-example" de las columnas del contenido de Ortopedia
+
+
+Parece ser que el archivo
+	<link rel="stylesheet" href="css/style.css">
+Se superpone con estilos que están en
+	<link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">

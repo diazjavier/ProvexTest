@@ -1,0 +1,137 @@
+*{margin: 0; padding: 0;}
+
+.todo-negro{
+  color: #000;
+  background-color: #000;
+  background: #000;
+}
+
+.item-xxxx{
+  background-color: rgba(0, 0, 0, 0.03);
+  height: 300%;
+  line-height: 300%;
+  padding-left: 2.5%;
+}
+
+.cardTitle {
+  height: 30px;
+  text-align: center;
+  padding-top: 2.5%;
+}
+
+.cardButton:after {
+  content: 'Ver detalles';
+}
+
+.cardlist {
+  margin: 0 0 10px 20px;
+}
+
+.caja1{
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0, 0, 0, 0);;
+}
+.caja2{
+  width: 100%;
+  height: 150px;
+  background: rgba(0, 0, 0, 0);
+  overflow: hidden;
+  padding-top: 2.5%;
+}
+
+.caja2 img{
+  width: auto;
+  height: 100%;
+}
+
+@supports(object-fit: contain){
+    .caja2 img{
+      width: 50%;
+      margin-left:25%;
+      object-fit: contain;
+      object-position: center center;
+    }
+}
+
+.caja3{
+  width: 100%;
+  height: 400px;
+  background: rgba(0, 0, 0, 0);
+  overflow: hidden;
+}
+
+.caja3 img{
+  width: auto;
+  height: 90%;
+}
+
+@supports(object-fit: contain){
+    .caja3 img{
+      width: 80%;
+      margin-left:10%;
+      object-fit: contain;
+      object-position: center center;
+    }
+}
+
+.caja4{
+  width: 100%;
+  height: 500px;
+  background: rgba(0, 0, 0, 0);
+  overflow: hidden;
+}
+
+.caja4 iframe{
+  width: auto;
+  height: 90%;
+}
+
+@supports(object-fit: contain){
+    .caja4 iframe{
+      width: 950%;
+      margin-left:5%;
+      object-fit: contain;
+      object-position: center center;
+    }
+}
+
+.scrollspy-example {
+  height: 400px;
+}
+
+/* .lgi {
+  font-weight: bold;
+  font-size: 1em;
+  color: #fff;
+  background-color: #a6aab4;
+} */
+
+.lgia2 {
+  padding-left: 4rem !important;
+  width: 100%;
+  color: #7a7d87;
+  text-align: inherit;
+  background-color: #f0f4f9;
+  border-color: #6c757d;
+}
+
+.lgia2:hover, .lgia2:focus {
+  z-index: 1;
+  color: #e1e9f0;
+  text-decoration: none;
+  background-color: #f8f9fa;
+}
+
+.lgia2:active {
+  color: #9aa6b3;
+  background-color: #e9ecef;
+}
+
+.list-group-item-light.lgia2.active {
+  color: #fff;
+  background-color: #29299E;
+  border-color: #B1B1B4;
+}

@@ -1,0 +1,22 @@
+*{margin: 0; padding: 0;}
+
+
+.menu-fixed {
+  position: fixed;
+  z-index: 1000;
+  top: 200;
+}
+
+.Cuno {
+  position: fixed;
+  z-index: 1000;
+  top: 100px;
+  background-color: #c36d6d;
+  color: #fff;
+}
+
+
+.Cdos {
+  background-color: #6dc390;
+  color: #fff;
+}

@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link href="css/dummy2.css" rel="stylesheet" href="">
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/landing-page.min.css" rel="stylesheet">
+
+
+
+</head>
+
+<body>
+  <div class="wrapper">
+    <nav id="sidebar">
+      <div class="sedebar-header">
+        <h3>Productos</h3>
+      </div>
+      <ul class="list-unstyled components">
+        <p>Busque por categoría de producto</p>
+        <li class="active">
+          <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Home</a>
+          <ul id="homeSubmenu" class="collapse list-unstyled">
+            <li>
+              <a href="#">Link 1</a>
+            </li>
+            <li>
+              <a href="#">Link 2</a>
+            </li>
+            <li>
+              <a href="#">Link 3</a>
+            </li>
+            <li>
+              <a href="#">Link 4</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Home 2</a>
+          <ul id="pageSubmenu" class="collapse list-unstyled">
+            <li>
+              <a href="#">LinkPage 1</a>
+            </li>
+            <li>
+              <a href="#">LinkPage 2</a>
+            </li>
+            <li>
+              <a href="#">LinkPage 3</a>
+            </li>
+            <li>
+              <a href="#">LinkPage 4</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="#">Servicios</a>
+        </li>
+        <li>
+          <a href="#">Contacto</a>
+        </li>
+      </ul>
+      <ul class="list-unstyled CTAs">
+        <li>
+          <a href="#" class="download">Download</a>
+        </li>
+        <li>
+          <a href="#" class="article">Article</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="content">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <button id="sidebarCollapse" class="btn btn-info" type="button">
+          <i src="img/Favicon_Provex.png"></i><span>Toggle sidebar</span>
+        </button>
+
+
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Dropdown
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#">Disabled</a>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          </form>
+        </div>
+      </nav>
+      <h2>Test 1</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio aliquam fuga natus labore debitis nemo totam dolorum ab dignissimos sed deserunt, a, in libero perspiciatis et! Quis sequi vero possimus.</p>
+      <h2>Test 2</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio aliquam fuga natus labore debitis nemo totam dolorum ab dignissimos sed deserunt, a, in libero perspiciatis et! Quis sequi vero possimus.</p>
+      <h2>Test 3</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio aliquam fuga natus labore debitis nemo totam dolorum ab dignissimos sed deserunt, a, in libero perspiciatis et! Quis sequi vero possimus.</p>
+      <h2>Test 4</h2>
+        <p>Lorem um dolor sit amet, consectetur adipisicing elit. Distinctio aliquam fuga natus labore debitis nemo totam dolorum ab dignissimos sed deserunt, a, in libero perspiciatis et! Quis sequi vero possimus.</p>
+
+    </div>
+  </div>
+
+
+  <form action="" class="search">
+    <!-- We'll have a button that'll make the search input appear, a submit button and the input -->
+
+    <!-- Alos, a label for it so that we can style it however we want it-->
+    <input id="submit" value="" type="submit">
+    <label for="submit" class="submit"></label>
+
+    <!-- trigger button and input -->
+    <a href="javascript: void(0)" class="icon"></a>
+    <input type="search" name="Search" id="search" placeholder="Search">
+  </form>
+  <div id="accordion" data-spy="scroll" data-offset="0" class="wrapper d-flex align-items-stretch overflow-auto">
+    <nav id="sidebar">
+      <div class="custom-menu">
+        <button type="button" id="sidebarCollapse" class="btn btn-primary">
+          <i class="fa fa-bars"></i>
+          <span class="sr-only">Toggle Menu</span>
+        </button>
+      </div>
+
+      <div class="p-4">
+        <h1><a href="#" class="logo">Productos: <span>Busque su producto aquí</span></a></h1>
+        <div class="row">
+          <div class="col-7">
+            <input type="text" id="txtBuscador" class="form-control">
+          </div>
+          <div class="col-5">
+            <button id="ver_productos" type="button" name="button" class="btn btn-success">Buscar</button>
+          </div>
+        </div>
+        <!-- <nav id="navbar-example3" class="nav nav-pills flex-column list-group">
+        <a id="heading1" href="#item-111" class="list-group-item list-group-item-action lgi" data-toggle="collapse" data-target="#collapse1" aria-expanded="true" aria-controls="collapse1" role="button">Sillas de ruedas y repuestos</a>
+        <nav class="nav nav-pills flex-column collapse show" id="collapse1" aria-labelledby="heading1" data-parent="#accordion">
+          <a class="btn-secondary lgia2 list-group-item" href="#item-1111">Sillas manuales de autopropulsión y traslado</a>
+          <a class="btn-secondary lgia2 list-group-item" href="#item-1112">Sillas especiales de paseo y postura</a>
+          <a class="btn-secondary lgia2 list-group-item" href="#item-1113">Sillas motorizadas</a>
+          <a class="btn-secondary lgia2 list-group-item" href="#item-1114">Repuestos para sillas de ruedas</a>
+        </nav>
+      </nav> -->
+        <ul class="list-unstyled components mb-5">
+          <li class="active_____">
+            <a id="item-11" href="#item-111" class="btn lgi" data-toggle="collapse" data-target="#li-111" role="button" aria-expanded="true" aria-controls="li-111"><span class="mr-3"></span> Home</a>
+            <ul id="li-111" class="collapse show" aria-labelledby="item-11">
+              <li>
+                <a href="#item-1141" class="ml-5">Home 1</a>
+              </li>
+              <li>
+                <a href="#item-1142" class="ml-5">Home 2</a>
+              </li>
+              <li>
+                <a href="#" class="ml-5">Home 3</a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a id="item-12" href="#item-115" class="btn lgi" data-toggle="collapse" data-target="#li-112" role="button" aria-expanded="false" aria-controls="li-111"><span class="mr-3"></span> About</a>
+            <ul id="li-112" class="collapse" aria-labelledby="item-11">
+              <li>
+                <a href="#item-1141" class="ml-5">About 1</a>
+              </li>
+              <li>
+                <a href="#item-1142" class="ml-5">About 2</a>
+              </li>
+              <li>
+                <a href="#" class="ml-5">About 3</a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a href="#"><span class="mr-3"></span> Works</a>
+          </li>
+          <li>
+            <a href="#"><span class="mr-3"></span> Blog</a>
+          </li>
+          <li>
+            <a href="#"><span class="fa fa-suitcase mr-3"></span> Gallery</a>
+          </li>
+          <li>
+            <a href="#"><span class="fa fa-cogs mr-3"></span> Services</a>
+          </li>
+          <li>
+            <a href="#"><span class="fa fa-paper-plane mr-3"></span> Contacts</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+  </div>
+
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="js/popper.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- <script class="cssdeck" src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script> -->
+  <script class="cssdeck" src="vendor/jquery/jquery.min.js"></script>
+  <script src="js/dummy2.js"></script>
+</body>
+
+</html>
